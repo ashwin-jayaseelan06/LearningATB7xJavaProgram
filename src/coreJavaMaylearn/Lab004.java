@@ -3,6 +3,7 @@ package coreJavaMaylearn;
 public class Lab004 {
     public static void main(String[] a) {
         System.out.println("Interview Q");
+
     }
 }
 
