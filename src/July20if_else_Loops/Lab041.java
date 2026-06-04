@@ -12,7 +12,7 @@ public class Lab041 {
         y = sc.nextInt();
         z = sc.nextInt();
 
-        if ((x+y>z)&&(y+z>x)&&(z+x>y)){
+        if ((x+y>z)&&(y+z>x)&&(z+x>y)){ //
         if(x==y&&y==z){
             System.out.println("Equilateral Triangle");
         }else if (x==y||y==z||z==x) {
