@@ -2,21 +2,25 @@ package July27_Array_list;
 
 public class Lab086 {
     public static void main(String[] args) {
-        int[] salaries = {7, 8, 9, 25, 5, 3, 18};
+        int[][] array_2d = {{1, 2, 3,},
+                            {9, 8, 7},
+                            {4, 5, 6}
+              };
+        //                   -------->
+        // Row -3 i -> 0to 2
+    // Coloumn -3 j -> 0to 2
 
-        int largest = salaries[0];
-        int secondLargest = salaries[0];
+        for (int i = 0; i <array_2d.length ; i++) {
+            for (int j = 0; j < array_2d.length; j++) {
 
-        for (int i = 1; i < salaries.length; i++) {
-            if (salaries[i] > largest) {
-                secondLargest = largest;
-                largest = salaries[i];
-            } else if (salaries[i] > secondLargest && salaries[i] != largest) {
-                secondLargest = salaries[i];
+
+                System.out.print(array_2d[i][j]);
+                System.out.print("\t");
+
             }
+            System.out.println(" ");
+            
         }
 
-        System.out.println("Largest = " + largest);
-        System.out.println("Second Largest = " + secondLargest);
-    }
-}
+        
+    }}
