@@ -3,8 +3,8 @@ package July28_OOPS_Concept;
 public class Alearn_Lab080 {
 //    1. Constructor
 
-//    a. Default Constructor
-//    b. Parametrarized Constructor
+//    a. Default Constructor means No arguments
+//    b. Parametrarized Constructor means with arguments
 //    c. Copy Constructor - x NOT USEFUL IN JAVA
 
 //2. Inheritance
@@ -16,7 +16,8 @@ public class Alearn_Lab080 {
 //    e. hybrid
 
 //3. Polymorphism
-//    a.access Modifires
+//    a.access Modifires | public,private,protected,default
+
 //4. Encapsulation
 
 //5. Abstraction
