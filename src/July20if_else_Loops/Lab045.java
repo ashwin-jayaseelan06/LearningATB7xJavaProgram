@@ -1,7 +1,7 @@
 package July20if_else_Loops;
 
 import java.util.Scanner;
-
+// Vowels finder in a word
 public class Lab045{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
